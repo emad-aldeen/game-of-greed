@@ -94,6 +94,11 @@ def test_six_ones():
     assert actual == expected
 
 
+def test_length_of_roll_dice():
+    actual=len( GameLogic.roll_dice(4))
+    expect=4
+    assert actual==expect
+
 @pytest.mark.parametrize(
     "test_input,expected",
     [
