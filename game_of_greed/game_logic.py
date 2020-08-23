@@ -1,4 +1,5 @@
 from collections import Counter
+import random
 
 all_rules = {
     '(1, 1)': 100,
@@ -62,6 +63,19 @@ class GameLogic():
             return 0
         else:
             return all_rules[value]
+    
+    @staticmethod
+    def roll_dice(n):
+        '''
+        function used for create random integer(1,6) number based on argument:
+            input -->int number(4)
+            output-->tuple contain random number example= (2,4,5,1)
+        '''
+        tup=[]
+        for i in range(n): 
+            tup.append(random.randint(1,6))
+        return(tuple(tup))
+
 
 
 
