@@ -89,10 +89,25 @@ class Banker():
 
     
     def shelf (self,points) :
+
+        '''
+            function to add shelfed point to the shelf of the instatnce  :
+
+                input = > points 
+
+            
+        '''
+
         self.shelved += points 
     
 
     def bank (self) :
+        '''
+        function to add shelfed point to the total :
+
+            output => total banked for the instans 
+
+        '''
 
         self.balance += self.shelved 
         self.shelved = 0
