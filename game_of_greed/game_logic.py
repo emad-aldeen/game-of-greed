@@ -79,9 +79,41 @@ class GameLogic():
 
 
 
-class Banker():
-    pass
+class Banker(): 
+    
+    def __init__(self) : 
+        self.shelved = 0 
+        self.balance = 0
+
+
+
+    
+    def shelf (self,points) :
+        self.shelved += points 
+    
+
+    def bank (self) :
+
+        self.balance += self.shelved 
+        self.shelved = 0
+
+        return self.balance
+
+
+
+    def clear_shelf(self) :
+
+        self.shelved = 0
+
 
 
 if __name__ == "__main__":
-    print(GameLogic.calculate_score((5, 5)))
+    # print(GameLogic.calculate_score((5, 5)))
+    # print()
+    new_bank = Banker()
+    # print(new_bank.shelf(5))
+    new_bank.shelf(100)
+    new_bank.shelf(50)
+    print(new_bank.shelved)
+
+
