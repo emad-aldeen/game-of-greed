@@ -1,0 +1,8 @@
+Welcome to Game of Greed
+Wanna play?y
+Starting round 1
+Rolling 6 dice...
+1,2,3,2,3,4
+Enter dice to keep (no spaces), or (q)uit: q
+Total score is 0 points
+Thanks for playing. You earned 0 points
