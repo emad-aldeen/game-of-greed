@@ -1,0 +1,12 @@
+Welcome to Game of Greed
+Wanna play?y
+Starting round 1
+Rolling 6 dice...
+5,2,3,5,4,2
+Enter dice to keep (no spaces), or (q)uit: 555
+Cheater!!! Or possibly made a typo...
+5,2,3,5,4,2
+Enter dice to keep (no spaces), or (q)uit: 55
+You have 100 unbanked points and 4 dice remaining
+(r)oll again, (b)ank your points or (q)uit q
+Thanks for playing. You earned 0 points

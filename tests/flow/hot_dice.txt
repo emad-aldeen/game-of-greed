@@ -1,0 +1,20 @@
+Welcome to Game of Greed
+Wanna play?y
+Starting round 1
+Rolling 6 dice...
+2,3,1,3,1,2
+Enter dice to keep (no spaces), or (q)uit: 112233
+You have 1500 unbanked points and 0 dice remaining
+(r)oll again, (b)ank your points or (q)uit r
+Rolling 6 dice...
+4,1,4,4,3,4
+Enter dice to keep (no spaces), or (q)uit: 44441
+You have 2400 unbanked points and 1 dice remaining
+(r)oll again, (b)ank your points or (q)uit b
+You banked 2400 points in round 1
+Total score is 2400 points
+Starting round 2
+Rolling 6 dice...
+3,2,3,2,1,4
+Enter dice to keep (no spaces), or (q)uit: q
+Thanks for playing. You earned 2400 points
