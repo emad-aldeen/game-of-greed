@@ -78,8 +78,17 @@ class Flo:
             print_lines = self.prints.strip().split("\n")
 
             file_lines = file.read().strip().split("\n")
+            
+
+
+            self.old_print(f'print lines: {print_lines}')
+            self.old_print(f'file lines: {file_lines}')
+
+            
 
             pairs = zip(print_lines, file_lines)
+
+            assert len(print_lines) == len(file_lines)
 
             for i, pair in enumerate(pairs):
 
@@ -94,4 +103,4 @@ class Flo:
 
 
 if __name__ == "__main__":
-    Flo.test("tests/flow/bank_one_roll_then_quit.txt")
+    Flo.test("tests/flow/living_on_the_edge.txt")
