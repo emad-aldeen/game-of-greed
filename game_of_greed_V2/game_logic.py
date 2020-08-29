@@ -80,3 +80,45 @@ class GameLogic:
                 scorers.append(dice[i])
 
         return tuple(scorers)
+
+
+class Banker(): 
+    
+    def __init__(self) : 
+        self.shelved = 0 
+        self.balance = 0
+
+
+
+    
+    def shelf (self,points) :
+
+        '''
+            function to add shelfed point to the shelf of the instatnce  :
+
+                input = > points 
+
+            
+        '''
+
+        self.shelved += points 
+    
+
+    def bank (self) :
+        '''
+        function to add shelfed point to the total :
+
+            output => total banked for the instans 
+
+        '''
+
+        self.balance += self.shelved 
+        self.shelved = 0
+
+        return self.balance
+
+
+
+    def clear_shelf(self) :
+
+        self.shelved = 0

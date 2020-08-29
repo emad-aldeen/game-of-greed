@@ -1,5 +1,5 @@
 import pytest
-from game_of_greed.game_logic import GameLogic
+from game_of_greed_V2.game_logic import GameLogic
 
 # pytestmark = [pytest.mark.version_1]
 

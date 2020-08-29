@@ -3,8 +3,8 @@ import sys
 
 print(sys.path)
 
-from game_of_greed_V2.game_logic import GameLogic 
-from game_of_greed.game_logic import Banker
+from game_of_greed_V2.game_logic import GameLogic , Banker
+
 
 
 class Game:
