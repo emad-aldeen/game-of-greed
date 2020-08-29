@@ -1,5 +1,5 @@
 import pytest
-from game_of_greed.game_logic import Banker
+from game_of_greed_V2.game_logic import Banker
 
 pytestmark = [pytest.mark.version_1, pytest.mark.version_2]
 

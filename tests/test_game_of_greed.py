@@ -1,4 +1,4 @@
-from game_of_greed import __version__
+from game_of_greed_V2 import __version__
 from tests.flow.flo import Flo
 
 def test_quitter():
