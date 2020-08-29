@@ -55,13 +55,13 @@ class Game:
             self.round_num += 1
 
             print(f"Total score is {self.banker.balance} points")
+            
 
         self.quit_game()
 
     def quit_game(self):
 
         # print(f"Thanks for playing. You earned {self.banker.balance} points")
-
         sys.exit()
 
     def start_round(self, round, num_dice=6):

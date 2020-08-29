@@ -11,8 +11,7 @@ import re
 from game_of_greed_V2.game import Game
 from game_of_greed_V2.game_logic import GameLogic
 
-Venom_th_Risker_xI_scor = 0
-Second_player_scor = 0
+
 
 class BasePlayer:
     def __init__(self):
@@ -53,9 +52,9 @@ class BasePlayer:
             mega_total += player.total_score
             player.reset()
 
-        # print(
-        #     f"{num_games} games (maybe) played with average score of {mega_total // num_games}"
-        # )
+        print(
+            f"{num_games} games (maybe) played with average score of {mega_total // num_games}"
+        )
 
 
 class Venom_th_Risker_xI(BasePlayer):
@@ -85,7 +84,6 @@ class Venom_th_Risker_xI(BasePlayer):
             
             if self.roll.__len__() - self.keepers.__len__() == 0:
                 if self.keepers.__len__() == 6:
-                    
                     self.rollNum = 0
                 else:
                     self.rollNum = 4
@@ -117,5 +115,4 @@ class Venom_th_Risker_xI(BasePlayer):
 
 
 if __name__ == "__main__":
-    # Venom_th_Risker_xI.play(10)
-
+    Venom_th_Risker_xI.play(100)
