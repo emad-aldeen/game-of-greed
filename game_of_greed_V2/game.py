@@ -11,7 +11,7 @@ class Game:
     """Class for Game of Greed application
     """
 
-    def __init__(self, roller=None, num_rounds=20):
+    def __init__(self, roller=None, num_rounds=1):
 
         self._roller = roller or GameLogic.roll_dice
         self.banker = Banker()
@@ -60,7 +60,7 @@ class Game:
 
     def quit_game(self):
 
-        print(f"Thanks for playing. You earned {self.banker.balance} points")
+        # print(f"Thanks for playing. You earned {self.banker.balance} points")
 
         sys.exit()
 
