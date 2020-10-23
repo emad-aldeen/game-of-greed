@@ -1,4 +1,4 @@
-""""
+"""
 Create a Game of Greed Player Bots
 ONLY use public methods
 - Game class constructor and play method
